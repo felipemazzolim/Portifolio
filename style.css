@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.cabecalho {
+    font-size: 28px;
+    padding: 2% 70% 1% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.cabecalho__menu:hover {
+    background-color: aqua;
+}
+
+.principal {
+    padding: 1% 1% 1% 1%;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo_geral {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo_inicial {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao {
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.redes_link {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    border: 2px solid #190eb4;
+    width: 178px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 8px;
+    text-decoration: none;
+    color: #24b9a5;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.links:hover {
+    background-color: #0d039b;
+}
+
+.foto {
+    border-radius: 10%;
+    width: 50%;
+    
+}
+
+.rodape {
+    display: flex;
+    gap: 60px;
+    color: #000000;
+    background-color: #fbfeff;
+    padding: 5px 10px 10px 100px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 10px;
+    align-items: center;
+}
+
+.senac {
+    width: 150px;
+}
+
+.about {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.principal_about {
+    font-size: 16px;
+    padding: 5% 10% 10% 10%;
+}
